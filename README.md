@@ -1,8 +1,9 @@
 # Excellent Video Extractor (e.v.e.)
 
-#### A python script that extracts titles/links from Youtube playlists.
+> #### A python script that extracts titles/links from Youtube playlists without the use of the YouTube API.
 
-#### Usage: 
+
+### Usage: 
 
 Execute the python script followed by the Youtube playlist link.
 
