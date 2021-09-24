@@ -12,7 +12,8 @@ except IndexError:
     print("\nNot a valid YouTube link.\n")
 
 else:
-
+    
+    # Checking the validity of the YouTube link
     if "youtube." in url_param.strip() or "spotify" in url_param.strip():
         # Opening url
         response = request.urlopen(url_param)
@@ -55,7 +56,7 @@ else:
                     # Adding to the links counter
                     links += 1
 
-        # Adding the entries counter in the output file
+        # Displaying the total of the entries extracted from the playlist
         with open(playlist_name+" playlist.txt", "r+") as out:
             content = out.read()
             out.seek(0)
